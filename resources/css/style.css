@@ -1,11 +1,39 @@
-body {
+body{
     background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(232, 216, 186);
+    padding: 1em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 1px;
+}
+
+.header a {
+    text-decoration: none;  
+    color: black;
+}
+
+.header a:hover {
+    color: red;
+}
+
+.logo {
+    color: rgb(232, 216, 186);
+    font-family: Papyrus;
+    font-size: 53px;
+    overflow: hidden;
+    margin-top: 1em;
+    text-align: center;
 }
 
 h1 {
     font-family: Verdana;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-align: center;
 }
@@ -13,14 +41,14 @@ h1 {
 h2 {
     font-family: Verdana;
     font-weight: 300;
-    font-size: 42px;
+    font-size: 32px;
     color: white;
     text-align: center;
 }
 
 p {
     font-family: Verdana;
-    font-size: 21px;
+    font-size: 20px;
     color: gray;
     text-align: center;
 }
