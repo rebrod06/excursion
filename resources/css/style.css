@@ -1,5 +1,5 @@
 body {
-    color: black;
+    background-color: black;
 }
 
 h1 {
@@ -28,6 +28,7 @@ p {
 .fullsize {
     max-width: 100%;
     height: auto;
+    align-items: center;
 }
 
 .thumbnail {
