@@ -25,12 +25,9 @@ p {
     text-align: center;
 }
 
-.fullsize {
-    max-width: 100%;
-    height: auto;
-    align-items: center;
-}
-
-.thumbnail {
-    align-items: center;
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
 }
